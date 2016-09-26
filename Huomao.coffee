@@ -17,7 +17,7 @@ request=require 'request'
 class Huomao
 
     constructor: (@user,@pass)->
-        @cookie='COOKIE HERE ';
+        @cookie='COOKIE'
         @user=@user
         @pass=@pass
 
